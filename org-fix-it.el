@@ -1,3 +1,7 @@
+(defcustom wr/pdfs-db-location "/path/to/db/"
+  "Define the location of the database."
+  :type 'string)
+
 (defun wr/org-pdftool-correct-current-path ()
    "Fix the path used in org-pdftools.
 
